@@ -1,0 +1,83 @@
+.containerS2 {
+    max-width: 80vw;
+    margin: 10% auto;
+    height: 60vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutMeText h3 {
+    font-size: 3rem;
+}
+
+.aboutMeContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fotoPoda {
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.myDescryption {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.cardsExperience {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+}
+
+.cardsContentAM {
+    border: 1px #353535 solid;
+    height: 100%;
+    width: 40%;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.AMDescription {
+    width: 90%;
+}
+
+
+.cardsContentAM img {
+    height: 30px;
+    width: 30px;
+    margin: 20px 0 10px 0;
+}
+
+@media screen and (max-width: 1200px){
+    
+    .containerS2 {
+        height: 100vh;
+        max-width: 100vw;
+    }
+
+
+    .fotoPoda{
+        height: 275px;
+        width: 275px;
+    }
+    
+    .aboutMeContent {
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
