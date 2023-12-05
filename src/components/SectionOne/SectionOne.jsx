@@ -3,6 +3,7 @@ import RodrigoPoda from '../../assets/fotos/rodrigo-podanosqui.jpg'
 import GithubLogo from '../../assets/logo/github-icon.png'
 import LinkedinLogo from '../../assets/logo/linkedin-icon.png'
 
+
 function SectionOne() {
   return (
     <div className="container">
@@ -18,9 +19,9 @@ function SectionOne() {
           </div>
           
           <div className="buttonSocial">
-            <button className="DownCurriculum" id="curriculum"><a href="#" target="_blank">Baixar CV</a></button>
+            <button className="DownCurriculum" id="curriculum"><a download={true} href='./PodaCurriculum.docx' target='_blank'>Baixar CV</a></button>
 
-            <button className="InfoContact" id="faleBtn"><a href="#Contact">Fale comigo</a></button>
+            <button className="InfoContact" id="faleBtn"><a href="#Contato">Fale comigo</a></button>
           </div>
 
           <div className="buttonSocialIcon">
