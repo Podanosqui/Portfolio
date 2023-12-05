@@ -21,7 +21,7 @@ function SectionFive() {
                 <li><a href="#Sobre">Sobre</a></li>
                 <li><a href="#MinhasLinguagens">Minhas Linguagens</a></li>
                 {/* <li><a href="#">Projects</a></li> */}
-                <li><a href="#Contato">Contact</a></li>
+                <li><a href="#Contato">Contato</a></li>
             </ul>
         </nav>
     </div>
