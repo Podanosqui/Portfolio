@@ -6,7 +6,7 @@ import ConquistaLogo from '../../assets/logo/logo-conquista.png'
 
 function SectionTwo() {
   return (
-    <div className="containerS2">
+    <div className="containerS2" id='Sobre'>
         <div className="aboutMeText">
             <h3>Sobre mim:</h3>
         </div>

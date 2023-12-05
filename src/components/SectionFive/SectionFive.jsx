@@ -3,7 +3,7 @@ import IconEmail from '../../assets/logo/icon-email.png'
 
 function SectionFive() {
   return (
-    <div className="containerS5">
+    <div className="containerS5" id='Contato'>
         <p>Quer saber mais?</p>
         <h5>Entre em contato comigo</h5>
 
@@ -18,10 +18,10 @@ function SectionFive() {
 
         <nav className='navS5'>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#MinhasLinguagens">Minhas Linguagens</a></li>
+                {/* <li><a href="#">Projects</a></li> */}
+                <li><a href="#Contato">Contact</a></li>
             </ul>
         </nav>
     </div>

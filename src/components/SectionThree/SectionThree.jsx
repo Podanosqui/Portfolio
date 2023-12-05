@@ -3,7 +3,7 @@ import IconCheck from '../../assets/logo/icon-check.png'
 
 function SectionThree() {
   return (
-    <div className="containerS3">
+    <div className="containerS3" id='MinhasLinguagens'>
         <div className="titleSkills">
             <h4>Minhas linguagens</h4>
         </div>
