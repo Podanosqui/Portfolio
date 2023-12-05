@@ -3,6 +3,7 @@ import Header from './components/Header/Header'
 import SectionOne from './components/SectionOne/SectionOne'
 import SectionTwo from './components/SectionTwo/SectionTwo'
 import SectionThree from './components/SectionThree/SectionThree'
+import SectionFive from './components/SectionFive/SectionFive'
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      {/* <SectionFour /> */}
+      <SectionFive />
     </>
   )
 }
